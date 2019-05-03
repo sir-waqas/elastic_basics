@@ -3,3 +3,20 @@
 - Index: It's like a Database/Schema in RDBMS
 - Type: It's like a Table in RDBMS
 - Document: It's like a row in RDBMS Table
+- APIs:
+  - Document
+    - Single:
+      - Index (Adds or Updates a typed JSON Doc in a specific Index, making it searchable)
+      - Get
+      - Delete
+      - Update
+    - Multi Document:
+      - Multi Get
+      - Bulk
+      - Delete by Query
+      - Update by Query
+      - Reindex
+  - Search
+  - Indices
+  - cat
+  - Cluster
